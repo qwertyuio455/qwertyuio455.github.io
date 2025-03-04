@@ -4,11 +4,15 @@
     border: 0;
 }
 
+.cv {
+    background-color: whitesmoke;
+}
+
 .profile {
     width: 100%;
-    background-color: blanchedalmond;
     padding: 20px;
     border-radius-bottom: 10px;
+    margin: 20px;
 }
 .profile > h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -37,7 +41,6 @@
 }
 
 .infor > h3 {
-    background-color: rgb(210, 175, 244);
     align-self: center;
     justify-self: center;
     padding: 5px;
@@ -59,7 +62,6 @@
 }
 
 .skill > h3 {
-    background-color: rgb(210, 175, 244);
     align-self: center;
     justify-self: center;
     padding: 5px;
@@ -85,7 +87,6 @@
 }
 
 .strengths > h3 {
-    background-color: rgb(210, 175, 244);
     align-self: center;
     justify-self: center;
     padding: 5px;
@@ -112,7 +113,6 @@
 }
 
 .weakness > h3 {
-    background-color: rgb(210, 175, 244);
     align-self: center;
     justify-self: center;
     padding: 5px;
@@ -123,6 +123,12 @@
 .weakness > li {
     list-style-type: none;
 }
+
+.weakness > li > i {
+    font-size: 15px;
+    color: red;
+}
+
 
 .weakness > li > i {
     font-size: 15px;
